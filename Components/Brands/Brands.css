@@ -1,0 +1,23 @@
+.brands-container {
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+  justify-content: center;
+}
+
+.brands {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Creates a 3-column grid */
+  gap: 10px; /* Adjust as needed */
+}
+
+.brand {
+  width: 100%; /* Adjust width as needed */
+  height: auto; /* Adjust height as needed */
+}
+
+.brand img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+}

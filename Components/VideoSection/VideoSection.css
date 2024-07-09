@@ -1,0 +1,48 @@
+.video-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px; /* Adjust padding as needed */
+    background-color: rgb(240, 240, 137); /* Yellow background */
+    position: relative;
+    z-index: 1; /* Ensure it stays behind other content */
+    overflow: hidden; /* Hide any overflowing content */
+  }
+  
+  .video-container {
+    width: 70%; /* Adjust width as needed */
+    background-color: #FFD700; /* Gold color */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 0px;
+    position: relative;
+    z-index: 2; /* Ensure it's above the background */
+  }
+  
+  .video-info {
+    width: 28%; /* Adjust width as needed */
+    background-color: #ff8ac4; /* Pink color */
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    color: white; /* White text color */
+    position: relative;
+    z-index: 3; /* Ensure it's above other content */
+  }
+  
+  .video-info img {
+    width: 100px; /* Adjust size as needed */
+    border-radius: 50%;
+  }
+  
+  .video-info h2 {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .video-info p {
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  

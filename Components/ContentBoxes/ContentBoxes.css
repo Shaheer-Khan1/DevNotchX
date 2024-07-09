@@ -1,0 +1,106 @@
+.content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background-color: #f8f8f8;
+  }
+  
+
+
+  .content-box {
+    width: 48%;
+    height: 300px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    margin-left: 15px;
+  }
+  
+  .content-box img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .content-button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .content-button:hover {
+    background-color: #333;
+  }
+  
+  .solar-system {
+    position: relative;
+    overflow: hidden;
+    background: radial-gradient(circle, #1c1c1c, #000000);
+    border-radius: 10px;
+    height: 300px;
+    color: white;
+  }
+  
+  .center-planet {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 80px;
+    height: 80px;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+  }
+  
+  .planet {
+    position: absolute;
+    border-radius: 50%;
+    background-color: #ff6347; /* Example planet color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .planet1 {
+    width: 40px;
+    height: 40px;
+    top: 10%;
+    left: 20%;
+    background-color: #e0aaff;
+  }
+  
+  .planet2 {
+    width: 30px;
+    height: 30px;
+    top: 30%;
+    left: 60%;
+    background-color: #ffc1c1;
+  }
+  
+  .planet3 {
+    width: 50px;
+    height: 50px;
+    top: 60%;
+    left: 40%;
+    background-color: #ffffa1;
+  }
+  
+  .planet4 {
+    width: 35px;
+    height: 35px;
+    top: 80%;
+    left: 70%;
+    background-color: #a1ffb1;
+  }
+  
+  .stars {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: transparent url('') repeat;
+    z-index: 0;
+  }
+  
