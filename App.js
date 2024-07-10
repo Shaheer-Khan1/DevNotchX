@@ -7,12 +7,14 @@ import './App.css'; // Import CSS for any additional global styles
 
 const App = () => {
   return (
-    <div className="App">
+      <div className="App">
+        
       <Navbar />
-      <ContentBoxes /> {/* Use ContentBoxes component here */}
-      <VideoSection /> {/* Use VideoSection component here */}
-      <Brands/>
+      <ContentBoxes /> 
+      <VideoSection /> 
+      <Brands/> 
     </div>
+    
   );
 }
 

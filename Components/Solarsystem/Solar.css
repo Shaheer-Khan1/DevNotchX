@@ -1,0 +1,90 @@
+/* Solar.css */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-image: url('../../Assets/Stars.jpg');
+    background-size: cover; /* Cover the entire container */
+  background-position: center; /* Center the background image */
+    position: relative;
+    overflow: hidden;
+    
+  }
+  
+  
+  .center-circle {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border-radius: 50%;
+    position: absolute;
+    background-image: url('../../Assets/NotchLogo.png');
+    background-size: 70%; /* Adjust the size of the background image to fit */
+    background-repeat: no-repeat; /* Prevent image from repeating */
+    background-position: center; /* Center the image within the circle */
+  }
+  
+  
+  .orbit {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border: 1px dashed #666;
+    border-radius: 50%;
+    animation: spin 20s linear infinite;
+  }
+  
+  .planet {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+  }
+  
+  .red1 {
+    background-color: red;
+    top: 50%;
+    right: -70px;
+    transform: translateY(-50%);
+  }
+  
+  .blue1 {
+    background-color: lightblue;
+    bottom: -70px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .pink1 {
+    background-color: pink;
+    top: -75px; /* Adjusted to match the distance of the blue planet */
+    left: 40%; /* Centered horizontally */
+    transform: translateX(-50%);
+  }
+  
+  .green1 {
+    background-color: green;
+    bottom: 55px; /* Adjusted to match the distance of the blue planet */
+    left: -40px;
+    transform: translateY(-50%);
+  }
+  
+  
+  .purple1 {
+    background-color: purple;
+    top: -24px;
+    right: -27px;
+    transform: translate(50%, -50%);
+  }
+  
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
